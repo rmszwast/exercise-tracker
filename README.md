@@ -12,8 +12,11 @@ To use:
 
 Screenshots of the the fully functioning app:
 
+Home page
 ![home page](./app_screenshots/home_page.png)
 
+Add exercise page
 ![home page](./app_screenshots/add_exercise.png)
 
+Edit exercise page
 ![home page](./app_screenshots/edit_exercise.png)
