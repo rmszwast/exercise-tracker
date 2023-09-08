@@ -1,0 +1,66 @@
+body {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+footer {
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+table {
+  border-collapse: collapse;
+  border: solid white;
+  }
+
+
+thead tr {
+  border-bottom: solid white;
+}
+
+
+tr th {
+  width: 10vw;
+  border-bottom: solid white;
+  padding: 2px
+}
+
+tr td {
+  border-bottom: thin solid white;
+  padding: 2px
+}
+
+.name {
+  text-align: left;
+}
+
+.number {
+  text-align: center;
+}
+
+input, select {
+  vertical-align: 33%;
+  font-family: inherit;
+}
+
+button {
+  font-family: inherit;
+}
+
+::placeholder {
+  text-align: center;
+}
+
+.click, select, button {
+  cursor: pointer;
+}
