@@ -1,6 +1,7 @@
 A MERN stack app for my web dev class.
 
-Virtual exercise log that records the exercise name, repetitions, weight, units (lbs/kgs), and date. Permits editing or deletion of any exercise.
+Web-based exercise log that records the exercise name, repetitions, weight, units (lbs/kgs), and date.  
+Adding, editing, or deleting an exercise initiates an API call to the Express server.
 
 To use:
 - provide a connection string to `MONGODB_CONNECT_STRING` in `/rest/.env`
